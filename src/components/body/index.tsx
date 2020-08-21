@@ -1,13 +1,14 @@
 import React from 'react'
+import {Container} from './styles'
 
 function Body(){
 
     return(
-        <body>
-
-            <h1>BODY</h1>
-
-        </body>
+        <Container>
+            <div>
+                Pokedex
+            </div>
+        </Container>
     )
 
 };
