@@ -1,14 +1,86 @@
 import React from 'react'
-import {Container} from './styles'
+import { Container, Ul, Title, Type, Primary, Secondary, Img, Strong } from './styles'
 
-function Body(){
+import id1 from '../../assets/images/pokemons/001.png'
 
-    return(
+function Body() {
+
+    return (
         <Container>
+            
             <div>
-                Pokedex
+                <Ul>
+                    <li>
+                        <Img src={id1}></Img>
+                        <div>
+                            <Strong>Nº001</Strong>
+                            <Title>Bulbasaur</Title>
+                            <Type>
+                                <Primary>Grass</Primary>
+                                <Secondary>Poison</Secondary>
+                            </Type>
+                        </div>
+                    </li>
+
+                    <li>
+                        <Img src={id1}></Img>
+                        <div>
+                            <Strong>Nº001</Strong>
+                            <Title>Bulbasaur</Title>
+                            <Type>
+                                <Primary>Grass</Primary>
+                                <Secondary>Poison</Secondary>
+                            </Type>
+                        </div>
+                    </li>
+
+                    <li>
+                        <Img src={id1}></Img>
+                        <div>
+                            <Strong>Nº001</Strong>
+                            <Title>Bulbasaur</Title>
+                            <Type>
+                                <Primary>Grass</Primary>
+                                <Secondary>Poison</Secondary>
+                            </Type>
+                        </div>
+                    </li>
+
+                    <li>
+                        <Img src={id1}></Img>
+                        <div>
+                            <Strong>Nº001</Strong>
+                            <Title>Bulbasaur</Title>
+                            <Type>
+                                <Primary>Grass</Primary>
+                                <Secondary>Poison</Secondary>
+                            </Type>
+                        </div>
+                    </li>
+
+                    <li>
+                        <Img src={id1}></Img>
+                        <div>
+                            <Strong>Nº001</Strong>
+                            <Title>Bulbasaur</Title>
+                            <Type>
+                                <Primary>Grass</Primary>
+                                <Secondary>Poison</Secondary>
+                            </Type>
+                        </div>
+                    </li>
+
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                </Ul>
             </div>
         </Container>
+        
     )
 
 };
