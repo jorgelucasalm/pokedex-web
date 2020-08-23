@@ -1,47 +1,48 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    height: auto;
     width: 100%;
     display: flex;
-    background-color: ${props => props.theme.colors.background};
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    justify-content: center;   
     
-    div {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        width: 100%;
-        padding: 0 100px;
-        display: flex;
-        justify-content: center;    
-    }
+`
+
+export const Div = styled.div`
+/* COR DE FUNDO DA LISTAGEM */
+    background-color: #474a51;
+    width: 52rem;
+
+    display: flex;
+    justify-content: center;
+    overflow:hidden;
+
+    border: 2px solid none;
+    border-radius: 9px;
 
 `
 
 export const Ul = styled.ul`
         
-        border: 2px solid none;
-        border-radius: 9px;
         width: 50rem;
-        
-        /* COR DE FUNDO DA LISTAGEM */
-        background-color: #474a51;
-        
-        
+
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(9rem, auto));
         grid-template-rows: auto-fit, minmax(15rem, auto);
         grid-gap:0;
-
         
     li {
         background-color: #fff;
         border: 2px solid none;
         border-radius: 4px;
+
         margin: 10px;
         width: auto;
         height: auto;
-
-        display: grid;
     }  
 
    
@@ -59,15 +60,14 @@ export const Img = styled.img`
     border-radius: 4px;
     background-color: #d3d3d3;
     width: 100%;
-    
 `
 
 export const Title = styled.h1`
 
-position: relative;
-    font: 700 1rem Poppins;
+    font-family: Poppins;
+    font-size: 1rem;
     margin-left: 0.5rem;
-    margin-top: 0.3rem
+    margin-top: 0.3rem;
 `
 
 export const Type = styled.span`

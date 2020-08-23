@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Ul, Title, Type, Primary, Secondary, Img, Strong } from './styles'
+import { Container, Ul, Title, Type, Primary, Secondary, Img, Strong, Div } from './styles'
 
 import id1 from '../../assets/images/pokemons/001.png'
 import id2 from '../../assets/images/pokemons/002.png'
@@ -15,119 +15,159 @@ function Body() {
 
     return (
         <Container>
-            <div>
+            <Div>
                 <Ul>
                     <li>
                         <Img src={id1}></Img>
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
                     </li>
 
                     <li>
                         <Img src={id2}></Img>
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
                     </li>
 
                     <li>
                         <Img src={id3}></Img>
-                        
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
-                        
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
+
                     </li>
 
                     <li>
                         <Img src={id4}></Img>
-                        
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
 
                     </li>
 
                     <li>
                         <Img src={id5}></Img>
-                        
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
 
                     </li>
 
                     <li>
                         <Img src={id6}></Img>
-                        
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
 
                     </li>
 
                     <li>
                         <Img src={id7}></Img>
-                        
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
 
                     </li>
 
                     <li>
                         <Img src={id8}></Img>
-                        
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
 
                     </li>
 
                     <li>
                         <Img src={id9}></Img>
-                        
-                            <Strong>Nº001</Strong>
-                            <Title>Bulbasaur</Title>
-                            <Type>
-                                <Primary>Grass</Primary>
-                                <Secondary>Poison</Secondary>
-                            </Type>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
 
                     </li>
+                    <li>
+                        <Img src={id9}></Img>
 
-                    
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
 
-                    
+                    </li>
+                    <li>
+                        <Img src={id9}></Img>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
+
+                    </li>
+                    <li>
+                        <Img src={id9}></Img>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
+
+                    </li>
+                    <li>
+                        <Img src={id9}></Img>
+
+                        <Strong>Nº001</Strong>
+                        <Title>Bulbasaur</Title>
+                        <Type>
+                            <Primary>Grass</Primary>
+                            <Secondary>Poison</Secondary>
+                        </Type>
+
+                    </li>
                 </Ul>
-            </div>
+            </Div>
         </Container>
-        
+
     )
 
 };

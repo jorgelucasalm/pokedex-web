@@ -13,9 +13,9 @@ export const Logo = styled.div`
     align-items: center;
     justify-items: center;
     padding: 0.5rem;
+
     img{
         height: 3rem;
-        margin-left: 2.4rem;
     }
     h1{
         color: antiquewhite;
