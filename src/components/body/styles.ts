@@ -17,54 +17,39 @@ export const Container = styled.section`
 
 `
 
-export const Ul = styled.section`
+export const Ul = styled.ul`
         
         border: 2px solid none;
         border-radius: 9px;
+        width: 50rem;
+        
+        /* COR DE FUNDO DA LISTAGEM */
         background-color: #474a51;
+        
+        
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(9rem, auto));
+        grid-template-rows: auto-fit, minmax(15rem, auto);
+        grid-gap:0;
 
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 45rem;
-        justify-content: center;
-
+        
     li {
         background-color: #fff;
         border: 2px solid none;
         border-radius: 4px;
         margin: 10px;
-        width: 10rem;
-        height: 15rem;
+        width: auto;
+        height: auto;
+
+        display: grid;
     }  
 
-    div{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    
-
-    
-    @media screen and (max-width: 1000px){
-        
-        
-        width: 40%;
-    }   
-
-    @media screen and (max-width: 600px){
-        
-            width: 90%;
-        
-    
-    } 
-
+   
 `
 
 export const Strong = styled.strong`
     margin-left: 0.5rem;
+    margin-top: 0.5rem;
     font: 400 0.7rem Archivo;
     color: #474a51;
 `
@@ -73,35 +58,40 @@ export const Img = styled.img`
     border: 2px solid none;
     border-radius: 4px;
     background-color: #d3d3d3;
-    width: 10rem;
-    margin: 0 auto;
+    width: 100%;
+    
 `
 
 export const Title = styled.h1`
+
+position: relative;
     font: 700 1rem Poppins;
     margin-left: 0.5rem;
     margin-top: 0.3rem
 `
 
 export const Type = styled.span`
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-left: 0.5rem;
-    width: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 20px;;
+    width: auto;
 `
 
 export const Primary = styled.span`
-        margin-left: 0.5rem;
-        font: 700 0.8rem Poppins;
+        text-align: center;
+        font: 700 0.5rem Poppins;
+        width: auto;
         background-color: greenyellow;
         border: 2px solid none;
         border-radius: 4px;
 `
+
 export const Secondary = styled.span`
-        margin-left: 0.5rem;
+
+        text-align: center;
         color: white;
-        font: 700 0.8rem Poppins;
+        width: auto;
+        font: 700 0.5rem Poppins;
         background-color: purple;
         border: 2px solid none;
         border-radius: 4px; 
