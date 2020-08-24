@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ThemeProvider } from 'styled-components'
 import usePersistedState from './utils/usePersistedState'
 
@@ -8,6 +8,7 @@ import Body from './components/body';
 
 import dark from './assets/styles/themes/dark'
 import light from './assets/styles/themes/light'
+import Select from './components/Select';
 
 function App() {
   const [theme, setTheme] = usePersistedState('theme', light);
@@ -17,11 +18,10 @@ function App() {
   } 
   
   return (
-
-
       <ThemeProvider theme={theme}>
         <CreateGlobalStyle/>
         <Header toggleTheme={toggleTheme} />
+        <Select/>
         <Body/>
       </ThemeProvider>
   );

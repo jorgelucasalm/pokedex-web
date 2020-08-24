@@ -5,14 +5,13 @@ export const Head = styled.header`
     height: 5rem;
     width: 100%;
     display: flex;
-    padding: 0 30px;
     justify-content: space-between;
+    padding: 0 30px;
 `
 export const Logo = styled.div`
     display: flex;
     align-items: center;
     justify-items: center;
-    padding: 0.5rem;
 
     img{
         height: 3rem;
@@ -22,6 +21,16 @@ export const Logo = styled.div`
         font: 700 3.6rem Archivo;
         font-size: 2.4rem;
         margin-left: 2.4rem;
+    }   
+
+    @media (max-width: 675px) {
+        
+        img{
+            height: 2.5rem
+        }
+        h1{
+            font-size: 2rem;
+        }
     }
 `
 

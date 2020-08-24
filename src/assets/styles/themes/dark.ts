@@ -9,7 +9,7 @@ export default {
         primary: '#333',
         secundary: '#f5f5f5',
         
-        background: '#222',
+        background: '#35414a',
         text: '#f5f5f5'
     },
 
