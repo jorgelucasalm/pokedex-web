@@ -3,8 +3,6 @@ import {Div} from './styles';
 
 import Select from 'react-select';
 
-
-
 function SelectText() {
 
     const options = [
@@ -22,6 +20,7 @@ function SelectText() {
             className="basic-single"
             classNamePrefix="Selecione um filtro"
             name="filter"
+            
             options={options}
             />
         </Div>
